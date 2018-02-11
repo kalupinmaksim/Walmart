@@ -1,0 +1,126 @@
+@media(max-width: 768px)  {
+  .logo_sit{
+    text-align: center;
+  }
+  .header-content .row {text-align: center;}
+.navbar{
+  padding-left: 0;
+  padding-right: 0;
+}
+.time_container{
+  text-align: center;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)");
+}
+.search_box input::placeholder{
+font-size: 10px;
+padding-left: 0;
+}
+.search_result p:first-child{
+  font-size: 17px;
+}
+.tovar_name{
+  text-align: center;
+}
+#magazine .card img {
+    padding: 5px;
+    width: 100%;
+}
+.img_ftr{
+  width: 65%;
+}
+footer .col-md-1{
+  text-align: center;
+
+}
+footer .col-md-1 ul li a{
+  font-size: 18px!important;
+
+}
+.delivery_info {
+    margin-left: 0;
+    padding-right: 0;
+}
+.container_menu{
+  padding-right: 0;
+}
+}
+@media(min-width: 1200px){
+
+}
+@media(max-width: 1201px) and (min-width: 991px) {
+
+}
+@media(max-width: 1223px) and (min-width: 1000px) {
+  .nav-item .nav-link{
+    font-size: 10px!important;
+  }
+  footer .nav-item .nav-link{
+    font-size: 14px!important;
+  }
+  .user_menu a{
+    font-size: 12px;
+  }
+  .footer_contact p{
+    font-size: 19px;
+  }
+  .phone{
+    font-size: 29px;
+  }
+  .time_container{
+    font-size: 13px;
+  }
+  .footer_phone_bl{
+    font-size: 14px;
+  }
+  .work_time_text{
+    font-size: 13px;
+  }
+  .quantity_info{
+    display: none;
+  }
+  .delivery_info{
+    padding-left: 35px;
+  }
+}
+@media(max-width: 992px) and (min-width: 768px) {
+.info_block{
+  display: none;
+}
+.header-content .logo_sit img{
+  width: 100%;
+}
+.phone{font-size: 22px;}
+.btn_header{
+  width: 100%;
+}
+.cons_text{
+  font-size: 11px;
+}
+.nav-item .nav-link{
+  font-size: 10px!important;
+}
+footer .nav-item .nav-link{
+  font-size: 14px!important;
+}
+.user_menu a{
+  font-size: 13px;
+}
+
+.img_footpay img{
+  width: 100%;
+}
+.footer_contact p{
+  font-size: 12px;
+}
+.footer_phone_bl{
+  font-size: 13px;
+}
+.adress_description p{
+  font-size: 12px;
+}
+}
+@media (min-width: 768px){
+
+}
