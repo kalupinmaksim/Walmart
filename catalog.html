@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Поиск</title>
+  <title>Каталог</title>
   <link rel="stylesheet" href="fa/font-awesome.min.css">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -32,10 +32,10 @@
             </button>
       <div class="collapse navbar-collapse navbar-default" id="navbarCollapse">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link " href="index.html">Главная</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="catalog.html">Каталог</a>
           </li>
           <li class="nav-item">
@@ -72,42 +72,52 @@
     <div class="container">
       <div class="header-content">
         <div class="row">
-          <div class="col-md-1 logo_sit">
-            <img class="mob_none " src="img/logo_small.png" alt="">
+          <div class="col-md-3 logo_sit">
+            <img src="img/logo.png" alt="">
           </div>
-          <div class="col-md-3 head2_pl">
-            <div class="phone2">
-              <span class="purple_phone">8 (800)</span> <span class="black_phone">475-12-43</span>
+          <div class="col-md-1"></div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-5 info_cont">
+                <div class="phone">
+                  <span class="purple_phone">8 (800)</span> <span class="black_phone">475-12-43</span>
+                </div>
+                <div class="cosultation">
+                  <img src="img/phone.png" alt="">
+                  <span class="cons_text">консультация / доставка</span>
+                </div>
+                <div class="coll_small_text">
+                  <p>Звоните в любой день с 9:00 до 21:00 </p>
+                </div>
+              </div>
+              <div class="col-md-7 time_container">
+                <div class="adress">
+                  <p>г. Москва ул. Красназнаменская 7, д.2, к.1, офис 201</p>
+                </div>
+                <div class="work_time">
+                  <img src="img/clock.png" alt=""> <span class="work_time_text">Пн - Пт  8.00 - 22.00 / Сб - Вс  10.00 - 18.00</span>
+                </div>
+                <div class="work_text ">Наш магазин работает для вас без обеда и выходных!</div>
+              </div>
             </div>
-            <div class="cosultation">
-              <img src="img/phone.png" alt="">
-              <span class="cons_text2">консультация / доставка</span>
-            </div>
-            <div class="coll_small_text">
-              <p>Звоните в любой день с 9:00 до 21:00 </p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" white_zone_cont">
-              <div class=" white_zone2">
+            <div class="row white_zone_cont">
+              <div class="row white_zone">
                 <div class="col-md-12 col-lg-5">
-                  <a class="btn btn_header" href="#">Позвонить вам? <img class="no_img_xx" src="img/telephone.png" alt="" class="img-rounded center-block"></a>
+                  <a class="btn btn_header" href="#">Позвонить вам? <img src="img/telephone.png" alt="" class="img-rounded center-block"></a>
+                </div>
+                <div class="col-md-7 info_block">
+                  <div class="delivery_info">
+                    <img src="img/delivery_car.png" alt="">
+                    <p>Доставка по москве <br> в кротчайшие сроки!</p>
+                  </div>
+                  <div class="quantity_info">
+                    <img src="img/medal.png" alt="">
+                    <p>Высочайшее качество <br> товара гарантирована!</p>
+                  </div>
                 </div>
               </div>
 
             </div>
-          </div>
-          <div class="col-md-5">
-            <div class="time_container2">
-              <div class="adress">
-                <p>г. Москва ул. Красназнаменская 7, д.2, к.1, офис 201</p>
-              </div>
-              <div class="work_time2">
-                <img  src="img/clock.png" alt=""> <span class="work_time_text">Пн - Пт  8.00 - 22.00 / Сб - Вс  10.00 - 18.00</span>
-              </div>
-              <div class="work_text ">Наш магазин работает для вас без обеда и выходных!</div>
-            </div>
-
           </div>
         </div>
 
@@ -244,59 +254,6 @@
     </div>
   </div>
 
-  <div class="container">
-
-    <form action="">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="form-group">
-            <select class="form-control my_form_select2 styled-select slate" id="exampleFormControlSelect1">
-              <option>ТИП УСТРОЙСТВА</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="form-group">
-            <select class="form-control my_form_select2 styled-select slate" id="exampleFormControlSelect1">
-              <option>ДЕТАЛЬ</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="form-group">
-            <select class="form-control my_form_select2 styled-select slate" id="exampleFormControlSelect1">
-              <option>БРЭНД(МАРКА)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="form-group">
-            <select class="form-control my_form_select2 styled-select slate" id="exampleFormControlSelect1">
-              <option>МОДЕЛЬ(СЕРИЯ)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </form>
-
-  </div>
-
   <section id="magazine">
     <div class="container container_bt_1">
       <div class="row ">
@@ -309,11 +266,122 @@
       <div class="row">
         <div class="col-md-12">
           <div class="search_result">
-            <p>Все устройства / Бренд - «Apple» / Модель - A12-570G / Деталь - все</p>
+            <p>Все устройства  / Бренд - «Apple» /  Модель - A12-570G  / Деталь - все</p>
             <p class="result">Результаты поиска
-              <span class="good_res">подходит - 343 позиции</span>
-            </p>
+                <span class="good_res">подходит - 343 позиции</span>
+              </p>
 
+          </div>
+        </div>
+      </div>
+
+      <div class="row tovar">
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p1.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span">-12шт</span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p2.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span">-12шт</span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p3.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span">-12шт</span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p4.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span">-12шт</span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p5.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span">-12шт</span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p6.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span">-12шт</span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -430,208 +498,219 @@
           </div>
         </div>
       </div>
-      <div class="row tovar">
-        <div class="col-md-4 col-lg-2">
-          <div class="card">
-            <img src="img/p1.png" alt="">
-            <div class="availability text-center">
-              В наличии <span class="span">-12шт</span>
-              <div class="tivar_opis">
-                <P> Системный разъем</P>
-              </div>
-              <div class="tovar_name">
-                Explay <br> Surfer 7.03
-              </div>
-              <a href="#" class="btn my_btn">В корзину</a>
-              <div class="tovar_price">
-                50 р.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="card">
-            <img src="img/p2.png" alt="">
-            <div class="availability text-center">
-              В наличии <span class="span">-12шт</span>
-              <div class="tivar_opis">
-                <P> Системный разъем</P>
-              </div>
-              <div class="tovar_name">
-                Explay <br> Surfer 7.03
-              </div>
-              <a href="#" class="btn my_btn">В корзину</a>
-              <div class="tovar_price">
-                50 р.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="card">
-            <img src="img/p3.png" alt="">
-            <div class="availability text-center">
-              В наличии <span class="span">-12шт</span>
-              <div class="tivar_opis">
-                <P> Системный разъем</P>
-              </div>
-              <div class="tovar_name">
-                Explay <br> Surfer 7.03
-              </div>
-              <a href="#" class="btn my_btn">В корзину</a>
-              <div class="tovar_price">
-                50 р.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="card">
-            <img src="img/p4.png" alt="">
-            <div class="availability text-center">
-              В наличии <span class="span">-12шт</span>
-              <div class="tivar_opis">
-                <P> Системный разъем</P>
-              </div>
-              <div class="tovar_name">
-                Explay <br> Surfer 7.03
-              </div>
-              <a href="#" class="btn my_btn">В корзину</a>
-              <div class="tovar_price">
-                50 р.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="card">
-            <img src="img/p5.png" alt="">
-            <div class="availability text-center">
-              В наличии <span class="span">-12шт</span>
-              <div class="tivar_opis">
-                <P> Системный разъем</P>
-              </div>
-              <div class="tovar_name">
-                Explay <br> Surfer 7.03
-              </div>
-              <a href="#" class="btn my_btn">В корзину</a>
-              <div class="tovar_price">
-                50 р.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="card">
-            <img src="img/p6.png" alt="">
-            <div class="availability text-center">
-              В наличии <span class="span">-12шт</span>
-              <div class="tivar_opis">
-                <P> Системный разъем</P>
-              </div>
-              <div class="tovar_name">
-                Explay <br> Surfer 7.03
-              </div>
-              <a href="#" class="btn my_btn">В корзину</a>
-              <div class="tovar_price">
-                50 р.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
+</div>
+      <div class="container container_bt_2">
+        <div class="row ">
+          <div class="col-md-12 ">
+            <div class="rose_block">
 
-            <li class="page-item"><a class="page-link active" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="row novinki">
+          <div class="col-md-12 pt_novinki">
+            <span>Новинки</span>
+            <span>Всего 239 новинок</span>
+          </div>
+        </div>
+        <div class="row novinki_container">
+          <div class="col-md-4">
+            <div class="card no_pad">
+              <div class="novinki_info">
+                <div class="price_novinki">50р. </div><div class="name_novinki">Explay Surfer 7.03</div>
+                <div class="name_cat_novinki">Системный разъем</div>
+              </div>
 
-          </ul>
-        </nav>
-      </div>
+              <img src="img/new1.png" alt="">
+              <div class="group1">
+                <a href="#" class=" btn btn_novinki" >В корзину</a>
+                <div class="novinki_qty">
+                  <span class="qty">86</span>шт. в наличии
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card no_pad">
+              <div class="novinki_info">
+                <div class="price_novinki">50р. </div><div class="name_novinki">Explay Surfer 7.03</div>
+                <div class="name_cat_novinki">Системный разъем</div>
+              </div>
+
+              <img src="img/new2.png" alt="">
+              <div class="group1">
+                <a href="#" class=" btn btn_novinki" >В корзину</a>
+                <div class="novinki_qty">
+                  <span class="qty">86</span>шт. в наличии
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card no_pad">
+              <div class="novinki_info">
+                <div class="price_novinki">50р. </div><div class="name_novinki">Explay Surfer 7.03</div>
+                <div class="name_cat_novinki">Системный разъем</div>
+              </div>
+
+              <img src="img/new3.png" alt="">
+              <div class="group1">
+                <a href="#" class=" btn btn_novinki" >В корзину</a>
+                <div class="novinki_qty">
+                  <span class="qty">86</span>шт. в наличии
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+
+                <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+
     </div>
-    <div class="container container_bt_2">
+    <div class="container container_bt_1">
       <div class="row ">
         <div class="col-md-12 ">
-          <div class="rose_block">
+          <div class="blue_block">
 
           </div>
         </div>
       </div>
-      <div class="row novinki">
-        <div class="col-md-12 pt_novinki">
-          <span>Новинки</span>
-          <span>Всего 239 новинок</span>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="search_result">
+            <p>Рекомендуемый товар / чипы / Apple</p>
+          </div>
         </div>
       </div>
-      <div class="row novinki_container">
-        <div class="col-md-4">
-          <div class="card no_pad">
-            <div class="novinki_info">
-              <div class="price_novinki">50р. </div>
-              <div class="name_novinki">Explay Surfer 7.03</div>
-              <div class="name_cat_novinki">Системный разъем</div>
-            </div>
 
-            <img src="img/new1.png" alt="">
-            <div class="group1">
-              <a href="#" class=" btn btn_novinki">В корзину</a>
-              <div class="novinki_qty">
-                <span class="qty">86</span>шт. в наличии
+      <div class="row tovar">
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p1.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span"></span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card no_pad">
-            <div class="novinki_info">
-              <div class="price_novinki">50р. </div>
-              <div class="name_novinki">Explay Surfer 7.03</div>
-              <div class="name_cat_novinki">Системный разъем</div>
-            </div>
-
-            <img src="img/new2.png" alt="">
-            <div class="group1">
-              <a href="#" class=" btn btn_novinki">В корзину</a>
-              <div class="novinki_qty">
-                <span class="qty">86</span>шт. в наличии
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p2.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span"></span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card no_pad">
-            <div class="novinki_info">
-              <div class="price_novinki">50р. </div>
-              <div class="name_novinki">Explay Surfer 7.03</div>
-              <div class="name_cat_novinki">Системный разъем</div>
-            </div>
-
-            <img src="img/new3.png" alt="">
-            <div class="group1">
-              <a href="#" class=" btn btn_novinki">В корзину</a>
-              <div class="novinki_qty">
-                <span class="qty">86</span>шт. в наличии
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p3.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span"></span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
               </div>
             </div>
           </div>
         </div>
-
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p4.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span"></span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p5.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span"></span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="card">
+            <img src="img/p6.png" alt="">
+            <div class="availability text-center">
+              В наличии <span class="span"></span>
+              <div class="tivar_opis">
+                <P> Системный разъем</P>
+              </div>
+              <div class="tovar_name">
+                Explay <br> Surfer 7.03
+              </div>
+              <a href="#" class="btn my_btn">В корзину</a>
+              <div class="tovar_price">
+                50 р.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-
-
-    </div>
-
-    </div>
+</div>
 
 
   </section>
-  <br>
+
   <div class="blue_box"></div>
 
   <footer>
@@ -642,13 +721,21 @@
           <a class="footer_a" href="#">Оферта</a>
         </div>
         <div class="col-md-3 adress_description">
-          <p>ООО «MOBILE-SERVICE» <br> Юр. адрес: 422335000,<br> СТРАНА РОССИЯ, <br> ГОРОД Москва <br> УЛИЦА КРАСНАЗНАМЕНСКАЯ 7, <br> ДОМ 2 КОРПУС 1<br> ОФИС 201,<br> ОГРН 1161215056397<br> ИНН/КПП 1216025962/121601001</p>
+          <p>ООО «MOBILE-SERVICE» <br>
+            Юр. адрес: 422335000,<br>
+            СТРАНА РОССИЯ, <br>
+            ГОРОД  Москва  <br>
+            УЛИЦА  КРАСНАЗНАМЕНСКАЯ 7, <br>
+            ДОМ 2 КОРПУС 1<br>
+            ОФИС 201,<br>
+            ОГРН 1161215056397<br>
+            ИНН/КПП 1216025962/121601001</p>
         </div>
 
         <div class="col-md-3 text-center footer_pay">
           <p>Способы оплаты</p>
           <div class="img_footpay">
-            <img src="img/pay.png" alt="">
+            <img  src="img/pay.png" alt="">
           </div>
           <p>Вы можете оплатить покупки наличными при получении, либо онлайн.</p>
         </div>
